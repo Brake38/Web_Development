@@ -1,0 +1,153 @@
+/*
+marble blue: #566D7E
+slate blue gray: #737CA1
+dark slate: #2B3856
+water: #EBF4FA
+rose gold: #ECC5C0
+grape: #5E5A80
+eggplant: #614051
+pearl: #FDEEF4
+*/
+
+header {
+    text-align: center;
+    background-color: #FFFF00;
+    float: left;
+    font-size: 150%;
+    width: 100%;
+    font-style: oblique;
+    margin: auto 0;
+    border-radius: 25px;
+}
+
+h1 {
+    color: #FF0000;
+    padding-top: 3%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 2px 1px black;
+}
+
+.figure1 {
+    opacity: 1;
+}
+
+.figure2{
+    float:left;
+    margin-right: 1%;
+    display: block;
+
+}
+
+.floatcenter {text-align: center;}
+.clear {clear: both;}
+
+h2 {
+    color:#FF0000;
+    font-style: oblique;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-shadow: 1px 1px black;
+}
+
+body{
+    background-image: url(img/superman-symbol2.png);
+    background-size: 100%;
+}
+
+.wrapper {
+    background-color: rgba(230,230,230, .8);
+    width: 88%;
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 3%;
+    overflow: hidden;
+}
+
+h1 {margin-top: 0;}
+
+
+nav {
+    background-color: blue;
+    height:380px;
+    border-radius: 25px;
+}
+
+.topnav a {
+    float: left;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+}
+
+.topnav a:hover {
+    background-color: seashell;
+    color: black;
+}
+
+.topnav a:active {
+    background-color: seashell;
+    color: white;
+}
+
+main {
+    background-color: #5CB3FF;
+    width: 100%;
+    padding: 1%;
+    float: left;
+    margin-top: 1%;
+    border-radius: 25px;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: yellow;
+    width:100%;
+    height: 100%;
+    border-radius: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+}
+
+thead {color: red;}
+tbody {color: white}
+tfoot {color: yellow}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .figure3 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.figure4 {
+    text-align: center;
+}
+
+.figure5 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1038px) {
+    #header1 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media print {
+    nav, footer {display: none;}
+    img {display: none;}
+}
